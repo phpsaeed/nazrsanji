@@ -1,0 +1,32 @@
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+error_log
+access_log
+
+# Cache
+*.cache
+.cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Uploads
+/uploads/
+*.tmp
+*.temp
+
+# System Files
+.DS_Store
+Thumbs.db 
